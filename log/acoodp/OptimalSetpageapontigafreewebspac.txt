@@ -1,0 +1,101 @@
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from apontiga.freewebspace.com.htm
+-------------------------------------------------------------------------------------------------------------------------
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from area codes and zip codes reference products.htm
+-------------------------------------------------------------------------------------------------------------------------
+		area(62,71)
+		code(41,43)
+		phone(13,16)
+		directori(8,9)
+		refer(4,4)
+		product(5,4)
+		north(5,7)
+		zip(38,46)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from automationtechies - Recruiting Services for Direct-hire and Contract Industrial Automation, Process Control, Instrumentation and Manufacturing Engineers.htm
+-------------------------------------------------------------------------------------------------------------------------
+		control(14,37)
+		process(7,20)
+		sale(8,20)
+		instrument(5,16)
+		industri(4,15)
+		automationtechi(6,16)
+		factori(5,15)
+		plc(4,13)
+		hmi(4,13)
+		build(4,13)
+		technic(5,11)
+		renew(4,13)
+		energi(4,13)
+		profession(6,13)
+		autom(28,59)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Automotive Marketing Agency   Traffic Builders, Inc..htm
+-------------------------------------------------------------------------------------------------------------------------
+		automot(10,46)
+		servic(8,22)
+		mail(9,20)
+		agenc(4,18)
+		traffic(6,16)
+		builder(6,16)
+		rev(8,14)
+		access(7,12)
+		live(6,12)
+		product(6,11)
+		direct(5,11)
+		report(8,10)
+		proven(4,8)
+		result(5,8)
+		learn(5,8)
+		dealership(4,7)
+		download(4,7)
+		market(18,61)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Axis Group PEO Brokerage provides employee leasing solutions..htm
+-------------------------------------------------------------------------------------------------------------------------
+		axi(9,34)
+		group(8,32)
+		leas(6,24)
+		payrol(6,20)
+		servic(8,26)
+		employe(5,18)
+		profession(4,16)
+		employ(4,16)
+		organ(4,16)
+		compens(5,14)
+		busi(5,10)
+		industri(4,8)
+		peo(18,56)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from B2B and B2C Technology Marketing Agency   BANNER.htm
+-------------------------------------------------------------------------------------------------------------------------
+		market(11,39)
+		technolog(7,32)
+		social(6,22)
+		banner(5,22)
+		blog(8,21)
+		buyer(4,17)
+		ve(5,17)
+		trend(4,15)
+		case(4,12)
+		new(4,10)
+		mobil(4,17)
+		search(5,15)
+		servic(4,10)
+		read(9,15)
+		media(4,12)
+		view(4,9)
+		sale(4,10)

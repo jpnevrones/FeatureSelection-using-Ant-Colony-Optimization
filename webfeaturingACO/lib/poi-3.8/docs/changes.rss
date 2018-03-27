@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91"><channel><title>POI Changes</title><link>http://poi.apache.org//changes.html</link><description>POI Changes</description><language>en-us</language><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52928 - DateFormatConverter: an utility to convert instances of java.text.DateFormat to Excel format patterns</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52895 - show SSTIndex instead of XFIndex in LabelSSTRecord.toString()</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52835 - Tolerate missing Count and UniqueCount attributes when parsing shared strings table in XSSF eventusermodel</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52818 - Added implementation for RANK()</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52682 - allow setting text with trailing carriage return in HSLF</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52244 - use correct text attributes when presentation has multiple TxMasterStyleAtoms of the same type</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              support setting background color of sheet tab in XSSF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              51564 - support for enforcing fields update in XWPF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              51673 - support grouping rows in SXSSF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              51780 - support replacement of content types in OPC packages </description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52784 - replace ISO control characters with question marks in SXSSF to be consistent with XSSF </description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52057 - updated formula test framework to be aware of recently added Functions </description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52574 - support setting header / footer page margins in HSSF </description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52583 - fixed WorkbookUtil#createSafeSheetName to escape colon </description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              51710 - fixed reading shared formulas in XSSF </description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52708 - misc improvements in CellFormat </description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52690 - added a getter for length of encrypted data in Ecma and Agile decryptors</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52255 - support adding TIFF,EPS and WPG pictures in OOXML documents </description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52078 - avoid OutOfMemoryError when rendering groupped pictures in HSLF </description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52745 - fixed XSSFRichtextString.append to preserve leading / trailing spaces </description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52716 - tolerate hyperlinks that have neither location nor relation </description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52599 - avoid duplicate text when rendering slides in HSLF</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52598 - respect slide background when rendering slides in HSLF</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              51731 - fixed painting shape outlines in HSLF</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52701 - fixed seting vertical alignment for XSLFTableCell</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52687 - fixed merging slides with pictures with associated custom tags</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+               allow runtime registration of functions in FormulaEvaluator</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52665 - When reading from a ZipFileZipEntrySource that has already been closed, give IllegalArgumentException rather than NPE</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52664 - MAPIMessage may not always have name chunks when checking for 7 bit encodings</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52649 - fixed namespace issue in WordToFoConverter</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52385 - avoid trancated array and vector data when reading OLE properties</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52662 - CharacterRun NPE fix when fetching symbol fonts, where no fonts are defined</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52658 - support mergin table cells in XSLF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              validate row number and column index in SXSSF when creating new rows / cells</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              51498 - fixed evaluation of blank cells in COUNTIF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52576 - support changing external file references in HSSFWorkbook</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              49896 - support external references in FormulaRenderer</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52527 - avoid exception when matching shared formula records in HSSF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52568 - Added methods to set/get an XWPFRun's text color</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52566 - Added methods to set/get vertical alignment and color in XWPFTableCell</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52562 - Added methods to get/set a table row's Can't Split and Repeat Header attributes  in XWPF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52561 - Added methods to set table inside borders and cell margins in XWPF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52569 - Support DConRefRecord in HSSF</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52575 - added an option to ignore missing workbook references in formula evaluator</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              Validate address of hyperlinks in XSSF</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52540 - Relax the M4.1 constraint on reading OOXML files, as some Office produced ones do have 2 Core Properties, despite the specification explicitly forbidding this</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52462 - Added implementation for SUMIFS()</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              POIXMLPropertiesTextExtractor support for extracting custom OOXML properties as text</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52449 - Support writing XWPF documents with glossaries (Glossaries are not yet supported, but can now be written out again without changes)</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52446 - Handle files which have been truncated by a few bytes in NPropertyTable</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52438 - Update CellDateFormatter to handle times without seconds</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52389 - Support ?/? as well as #/# fractions, and tighten DataFormatter rules for fraction matching</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52200 - Updated XWPF table example code </description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52378 - Support for WORKDAY and NETWORKDAYS functions</description></item><item><title> add</title><link>http://poi.apache.org//changes.html</link><description> add
+              by 
+              poi-developers
+              :
+              52349 - Merge the logic between the TEXT function and DataFormatter</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52349 - Correctly support excel style date format strings in the TEXT function</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52369 - XSSFExcelExtractor should format numeric cells based on the format strings applied to them</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52369 - Event based XSSF parsing should handle formatting of formula values in XSSFSheetXMLHandler</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52348 - Avoid exception when creating cell style in a workbook that has an empty xf table</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52219 - fixed XSSFSimpleShape to set rich text attributes from XSSFRichtextString</description></item><item><title> fix</title><link>http://poi.apache.org//changes.html</link><description> fix
+              by 
+              poi-developers
+              :
+              52314 - enhanced SheetUtil.getColumnWidth</description></item></channel></rss>

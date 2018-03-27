@@ -1,0 +1,47 @@
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from IndianTemples  Sculpture and Ornamentation; Indian Archaelogy, Pictorial survey, Gujarat. Chhatisgarh, Madhya Pradesh, Tamil Nadu, Andhra, Karnataka, ancient sites.htm
+-------------------------------------------------------------------------------------------------------------------------
+		templ(33,51)
+		sculptur(17,28)
+		region(17,25)
+		india(14,22)
+		ancient(8,17)
+		indian(13,18)
+		monument(8,15)
+		site(8,15)
+		ornament(4,10)
+		ad(6,13)
+		buddhist(4,5)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from MoMA.org   Interactives   Exhibitions   1998   Aleksandr Rodchenko.htm
+-------------------------------------------------------------------------------------------------------------------------
+		aleksandr(6,35)
+		art(6,24)
+		museum(4,11)
+		modern(4,11)
+		rodchenko(9,58)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from News From Corpus of Anglo-Saxon Stone Sculpture - Durham University.htm
+-------------------------------------------------------------------------------------------------------------------------
+		sculptur(12,36)
+		saxon(12,36)
+		corpu(12,32)
+		stone(9,28)
+		casss(8,26)
+		project(10,24)
+		new(5,19)
+		data(6,16)
+		univers(6,16)
+		Â£(5,13)
+		british(5,11)
+		academi(5,11)
+		trust(4,9)
+		sainsburi(4,9)
+		charit(4,8)
+		anglo(12,36)

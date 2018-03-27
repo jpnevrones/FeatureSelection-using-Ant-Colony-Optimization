@@ -1,0 +1,288 @@
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from CoForma - Company Formation Specialist in Brazil.htm
+-------------------------------------------------------------------------------------------------------------------------
+		brazil(9,32)
+		busi(7,25)
+		compani(5,20)
+		trademark(4,17)
+		br(4,13)
+		fri(4,13)
+		coforma(17,75)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from High Tech Startup Valuation Estimator.htm
+-------------------------------------------------------------------------------------------------------------------------
+		busi(25,46)
+		matter(25,35)
+		valuat(10,21)
+		ventur(8,19)
+		resourc(8,15)
+		consult(7,15)
+		capit(6,17)
+		startup(9,18)
+		plan(6,17)
+		market(13,21)
+		research(9,18)
+		product(8,11)
+		revenu(7,10)
+		tech(5,10)
+		servic(7,10)
+		high(4,8)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Home - 2012 Conference on Entrepreneurship.htm
+-------------------------------------------------------------------------------------------------------------------------
+		stanford(5,35)
+		entrepreneurship(4,35)
+		speaker(4,27)
+		confer(6,43)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from National Business Incubation Association.htm
+-------------------------------------------------------------------------------------------------------------------------
+		nbia(33,67)
+		busi(17,50)
+		member(6,13)
+		incub(9,18)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from The Jim Moran Institute for Global Entrepreneurship   FSU - The Jim Moran Institute for Global Entrepreneurship.htm
+-------------------------------------------------------------------------------------------------------------------------
+		jim(14,42)
+		institut(11,35)
+		busi(14,31)
+		entrepreneurship(15,29)
+		florida(8,23)
+		state(6,18)
+		univers(5,17)
+		colleg(9,24)
+		global(6,16)
+		fsu(9,14)
+		advic(4,8)
+		new(5,8)
+		small(4,6)
+		faculti(4,9)
+		entrepreneur(4,6)
+		moran(14,42)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from hkcompanies.com    by WR Group    Form Your Hong Kong Company Companies in Affordable Prices and Quality Services....htm
+-------------------------------------------------------------------------------------------------------------------------
+		servic(22,41)
+		search(17,36)
+		hong(11,26)
+		kong(11,26)
+		busi(14,30)
+		format(6,13)
+		hkcompani(6,12)
+		offic(5,11)
+		web(7,14)
+		shelf(5,10)
+		hk(4,10)
+		compani(24,53)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from PracticallyNetworked.com.htm
+-------------------------------------------------------------------------------------------------------------------------
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Wireless Lan.htm
+-------------------------------------------------------------------------------------------------------------------------
+		lan(10,40)
+		secur(6,33)
+		softwar(6,32)
+		wlan(8,26)
+		wifi(4,14)
+		defcon(4,9)
+		network(5,13)
+		wireless(15,60)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Mathematical trick counters wireless fraud - tech - 20 February 2005 - New Scientist.htm
+-------------------------------------------------------------------------------------------------------------------------
+		wireless(12,37)
+		scientist(10,23)
+		network(7,20)
+		tech(5,18)
+		great(8,20)
+		comput(6,18)
+		new(6,15)
+		fraud(4,15)
+		login(7,15)
+		mathemat(4,13)
+		august(9,20)
+		job(12,17)
+		protocol(4,13)
+		scienc(4,10)
+		link(6,13)
+		subscrib(5,6)
+		jakobsson(4,9)
+		function(4,9)
+		latest(5,12)
+		intellig(4,9)
+		era(4,9)
+		spaceplan(4,9)
+		engin(4,9)
+		climat(4,9)
+		password(9,20)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Kymberli Colbourne The Voice of Choice Inc, ISDN Phone Patch, in-house studio, voice talent,voiceover.htm
+-------------------------------------------------------------------------------------------------------------------------
+		voic(14,55)
+		studio(9,33)
+		talent(6,25)
+		kymberli(8,23)
+		phone(6,23)
+		isdn(5,20)
+		patch(5,20)
+		hous(4,20)
+		radio(4,15)
+		check(4,10)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Kymberli Colbourne The Voice of Choice Inc, ISDN Phone Patch, in-house studio, voice talent,voiceover.htm
+-------------------------------------------------------------------------------------------------------------------------
+		voic(14,55)
+		studio(9,33)
+		talent(6,25)
+		phone(6,23)
+		kymberli(8,23)
+		isdn(5,20)
+		patch(5,20)
+		hous(4,20)
+		radio(4,15)
+		check(4,10)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from SOC - The Society of Camera Operators  Home.htm
+-------------------------------------------------------------------------------------------------------------------------
+		camera(8,51)
+		soc(13,39)
+		motion(4,29)
+		film(4,29)
+		societi(4,22)
+		oper(5,29)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from American Osteopathic College of Dermatology - Dermatologic Disease Database.htm
+-------------------------------------------------------------------------------------------------------------------------
+		dermatolog(8,56)
+		diseas(11,40)
+		databas(6,25)
+		skin(7,18)
+		dermat(7,13)
+		nevu(6,11)
+		hair(5,9)
+		syndrom(5,9)
+		eczema(5,9)
+		erythema(5,9)
+		lice(4,7)
+		lichen(5,9)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from BABTAC membership organisation offering insurance policies.htm
+-------------------------------------------------------------------------------------------------------------------------
+		babtac(13,42)
+		membership(9,35)
+		insur(7,33)
+		beauti(6,27)
+		organis(5,24)
+		polici(4,22)
+		cover(4,27)
+		vital(11,24)
+		benefit(4,9)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from BeautyTech Dedicated to Educate and Decorate.htm
+-------------------------------------------------------------------------------------------------------------------------
+		beauti(9,26)
+		beautytech(13,23)
+		salon(12,23)
+		art(5,16)
+		network(4,14)
+		advertis(8,19)
+		profession(4,13)
+		suppli(4,13)
+		link(7,13)
+		sponsor(10,16)
+		articl(7,13)
+		event(7,14)
+		shopp(8,12)
+		mail(8,13)
+		list(7,12)
+		search(8,12)
+		nailtech(5,9)
+		contact(5,8)
+		industri(5,9)
+		busi(4,8)
+		calendar(4,6)
+		stuff(5,6)
+		info(4,6)
+		free(4,6)
+		click(4,5)
+		nail(8,28)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Cosmetic Executive Women - Home.htm
+-------------------------------------------------------------------------------------------------------------------------
+		women(10,34)
+		cew(11,30)
+		cosmet(5,23)
+		execut(5,23)
+		leader(4,18)
+		busi(4,18)
+		career(4,18)
+		award(4,14)
+		directori(5,11)
+		care(4,9)
+		coti(4,9)
+		presid(4,9)
+		york(5,11)
+		ny(4,9)
+		beauti(16,53)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Cosmetic Surgery India Kolkata Mumbai Delhi Dubai Dhaka.htm
+-------------------------------------------------------------------------------------------------------------------------
+		surgeri(47,56)
+		breast(21,33)
+		cosmet(22,26)
+		plastic(21,18)
+		india(18,18)
+		kolkata(5,7)
+		mumbai(4,5)
+		usa(4,4)
+		hair(22,26)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Cosmetic Surgery, Cosmetic Surgery India.htm
+-------------------------------------------------------------------------------------------------------------------------
+		cosmet(32,61)
+		surgeri(34,58)
+		india(8,17)
+		dr(8,13)
+		mohan(8,13)
+		thoma(8,13)
+		surgeon(8,13)
+		plastic(6,13)
+		world(4,8)

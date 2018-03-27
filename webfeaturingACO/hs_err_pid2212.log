@@ -1,0 +1,246 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x079e3290, pid=2212, tid=3360
+#
+# Java VM: Java HotSpot(TM) Client VM (10.0-b19 mixed mode, sharing windows-x86)
+# Problematic frame:
+# C  0x079e3290
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x02389000):  JavaThread "XpcMessageLoop" daemon [_thread_in_native, id=3360, stack(0x06360000,0x063b0000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x079e3290
+
+Registers:
+EAX=0x079e3290, EBX=0x2836f970, ECX=0x023890f4, EDX=0x28370940
+ESP=0x063af1bc, EBP=0x063af1f4, ESI=0x2836f970, EDI=0x02389000
+EIP=0x079e3290, EFLAGS=0x00010287
+
+Top of Stack: (sp=0x063af1bc)
+0x063af1bc:   02399c91 023890f4 063af1fc 063af204
+0x063af1cc:   2d05e620 02389000 063af1d4 00000000
+0x063af1dc:   063af204 28370940 00000000 2836f970
+0x063af1ec:   00000000 063af204 063af228 02392d93
+0x063af1fc:   2836ffa8 02398099 242b29a0 063af208
+0x063af20c:   2836f05c 063af240 28370940 00000000
+0x063af21c:   2836f090 063af204 063af23c 063af264
+0x063af22c:   02392cb1 00000000 242b28f0 242b29a0 
+
+Instructions: (pc=0x079e3290)
+0x079e3280:   
+[error occurred during error reporting (printing registers, top of stack, instructions near pc), id 0xc0000005]
+
+Stack: [0x06360000,0x063b0000],  sp=0x063af1bc,  free space=316k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x079e3290
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+J  com.jniwrapper.Callback.enterPoint(JI)J
+v  ~BufferBlob::StubRoutines (1)
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+J  com.jniwrapper.Callback.enterPoint(JI)J
+v  ~BufferBlob::StubRoutines (1)
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::StubRoutines (1)
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x04faf400 JavaThread "Thread-1" daemon [_thread_in_native, id=2836, stack(0x061e0000,0x06230000)]
+  0x04f63c00 JavaThread "TimerQueue" daemon [_thread_blocked, id=3844, stack(0x08bc0000,0x08c10000)]
+  0x04dc8000 JavaThread "com.jniwrapper.NativeResourceCollector" daemon [_thread_blocked, id=1876, stack(0x07a40000,0x07a90000)]
+=>0x02389000 JavaThread "XpcMessageLoop" daemon [_thread_in_native, id=3360, stack(0x06360000,0x063b0000)]
+  0x00b67800 JavaThread "DestroyJavaVM" [_thread_blocked, id=4196, stack(0x003b0000,0x00400000)]
+  0x04db9800 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=4084, stack(0x05750000,0x057a0000)]
+  0x04de2800 JavaThread "AWT-Windows" daemon [_thread_in_native, id=4100, stack(0x05270000,0x052c0000)]
+  0x04de2400 JavaThread "AWT-Shutdown" [_thread_blocked, id=1904, stack(0x051e0000,0x05230000)]
+  0x04b4f800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=4484, stack(0x05150000,0x051a0000)]
+  0x02324400 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=5004, stack(0x04870000,0x048c0000)]
+  0x0230f400 JavaThread "CompilerThread0" daemon [_thread_blocked, id=3780, stack(0x047e0000,0x04830000)]
+  0x0230ec00 JavaThread "Attach Listener" daemon [_thread_blocked, id=2908, stack(0x04750000,0x047a0000)]
+  0x02306000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=1320, stack(0x046c0000,0x04710000)]
+  0x022c3400 JavaThread "Finalizer" daemon [_thread_blocked, id=3708, stack(0x04630000,0x04680000)]
+  0x022c2400 JavaThread "Reference Handler" daemon [_thread_blocked, id=2292, stack(0x045a0000,0x045f0000)]
+
+Other Threads:
+  0x022c1000 VMThread [stack: 0x04510000,0x04560000] [id=916]
+  0x02335c00 WatcherThread [stack: 0x04900000,0x04950000] [id=2828]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 216K [0x24280000, 0x24380000, 0x24760000)
+  eden space 896K,  23% used [0x24280000, 0x242b5598, 0x24360000)
+  from space 64K,   4% used [0x24370000, 0x24370ae0, 0x24380000)
+  to   space 64K,   0% used [0x24360000, 0x24360000, 0x24370000)
+ tenured generation   total 9980K, used 7058K [0x24760000, 0x2511f000, 0x28280000)
+   the space 9980K,  70% used [0x24760000, 0x24e44b88, 0x24e44c00, 0x2511f000)
+ compacting perm gen  total 12288K, used 5954K [0x28280000, 0x28e80000, 0x2c280000)
+   the space 12288K,  48% used [0x28280000, 0x28850828, 0x28850a00, 0x28e80000)
+    ro space 8192K,  66% used [0x2c280000, 0x2c7d0c80, 0x2c7d0e00, 0x2ca80000)
+    rw space 12288K,  52% used [0x2ca80000, 0x2d0d03d0, 0x2d0d0400, 0x2d680000)
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	C:\Program Files (x86)\Java\jdk1.6.0_04\bin\java.exe
+0x76ff0000 - 0x77170000 	C:\Windows\SysWOW64\ntdll.dll
+0x74c80000 - 0x74d90000 	C:\Windows\syswow64\kernel32.dll
+0x747a0000 - 0x747e6000 	C:\Windows\syswow64\KERNELBASE.dll
+0x762a0000 - 0x76340000 	C:\Windows\syswow64\ADVAPI32.dll
+0x74f10000 - 0x74fbc000 	C:\Windows\syswow64\msvcrt.dll
+0x75df0000 - 0x75e09000 	C:\Windows\SysWOW64\sechost.dll
+0x75e10000 - 0x75f00000 	C:\Windows\syswow64\RPCRT4.dll
+0x746d0000 - 0x74730000 	C:\Windows\syswow64\SspiCli.dll
+0x746c0000 - 0x746cc000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\msvcr71.dll
+0x6d870000 - 0x6dac0000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\client\jvm.dll
+0x747f0000 - 0x748f0000 	C:\Windows\syswow64\USER32.dll
+0x761b0000 - 0x76240000 	C:\Windows\syswow64\GDI32.dll
+0x76fc0000 - 0x76fca000 	C:\Windows\syswow64\LPK.dll
+0x75fa0000 - 0x7603d000 	C:\Windows\syswow64\USP10.dll
+0x738f0000 - 0x73922000 	C:\Windows\system32\WINMM.dll
+0x76240000 - 0x762a0000 	C:\Windows\system32\IMM32.DLL
+0x74e40000 - 0x74f0c000 	C:\Windows\syswow64\MSCTF.dll
+0x72f70000 - 0x72fbc000 	C:\Windows\system32\apphelp.dll
+0x6d320000 - 0x6d328000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\hpi.dll
+0x74790000 - 0x74795000 	C:\Windows\syswow64\PSAPI.DLL
+0x6d820000 - 0x6d82c000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\verify.dll
+0x6d3c0000 - 0x6d3df000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\java.dll
+0x6d860000 - 0x6d86f000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\zip.dll
+0x6d0b0000 - 0x6d1de000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\awt.dll
+0x72d60000 - 0x72db1000 	C:\Windows\system32\WINSPOOL.DRV
+0x74b20000 - 0x74c7c000 	C:\Windows\syswow64\ole32.dll
+0x72c60000 - 0x72ce0000 	C:\Windows\system32\uxtheme.dll
+0x6d2c0000 - 0x6d313000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\fontmanager.dll
+0x72d00000 - 0x72d08000 	c:\PROGRA~2\mcafee\SITEAD~1\saHook.dll
+0x75f10000 - 0x75f9f000 	C:\Windows\syswow64\OLEAUT32.dll
+0x72c40000 - 0x72c53000 	C:\Windows\system32\dwmapi.dll
+0x74fc0000 - 0x75c0a000 	C:\Windows\syswow64\shell32.dll
+0x74730000 - 0x74787000 	C:\Windows\syswow64\SHLWAPI.dll
+0x6d620000 - 0x6d633000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\net.dll
+0x765d0000 - 0x76605000 	C:\Windows\syswow64\WS2_32.dll
+0x76400000 - 0x76406000 	C:\Windows\syswow64\NSI.dll
+0x73010000 - 0x7304c000 	C:\Windows\system32\mswsock.dll
+0x715c0000 - 0x715c6000 	C:\Windows\System32\wship6.dll
+0x6d640000 - 0x6d649000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\nio.dll
+0x748f0000 - 0x74973000 	C:\Windows\syswow64\CLBCatQ.DLL
+0x6d230000 - 0x6d253000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\dcpr.dll
+0x10000000 - 0x10008000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\javaxpcomglue.dll
+0x73a10000 - 0x73aab000 	C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc\MSVCR80.dll
+0x063b0000 - 0x063d9000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nspr4.dll
+0x72970000 - 0x72977000 	C:\Windows\system32\WSOCK32.dll
+0x064e0000 - 0x064e7000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\plc4.dll
+0x06500000 - 0x06507000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\plds4.dll
+0x06570000 - 0x065e3000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\sqlite3.dll
+0x06530000 - 0x06544000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nssutil3.dll
+0x065f0000 - 0x06616000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\softokn3.dll
+0x06630000 - 0x066cb000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nss3.dll
+0x066e0000 - 0x06700000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\ssl3.dll
+0x06710000 - 0x06728000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\smime3.dll
+0x06740000 - 0x06812000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\js3250.dll
+0x06830000 - 0x07211000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\xul.dll
+0x72d50000 - 0x72d59000 	C:\Windows\system32\VERSION.dll
+0x74d90000 - 0x74e0b000 	C:\Windows\syswow64\COMDLG32.dll
+0x73930000 - 0x739b4000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af\COMCTL32.dll
+0x6e960000 - 0x6e965000 	C:\Windows\system32\MSIMG32.dll
+0x73b90000 - 0x73c17000 	C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc\MSVCP80.dll
+0x07340000 - 0x07347000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\xpcom.dll
+0x745c0000 - 0x745c5000 	C:\Windows\System32\wshtcpip.dll
+0x72a60000 - 0x72a7c000 	C:\Windows\system32\iphlpapi.dll
+0x72a50000 - 0x72a57000 	C:\Windows\system32\WINNSI.DLL
+0x73d50000 - 0x73d5d000 	C:\Windows\system32\dhcpcsvc6.DLL
+0x73ac0000 - 0x73ad2000 	C:\Windows\system32\dhcpcsvc.DLL
+0x73e90000 - 0x73eb1000 	C:\Windows\system32\ntmarta.dll
+0x76160000 - 0x761a5000 	C:\Windows\syswow64\WLDAP32.dll
+0x6cc80000 - 0x6cc9e000 	C:\Windows\system32\t2embed.dll
+0x74420000 - 0x745be000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll
+0x6ce80000 - 0x6cf7b000 	C:\Windows\system32\WindowsCodecs.dll
+0x6cce0000 - 0x6cd11000 	C:\Windows\system32\EhStorShell.dll
+0x74980000 - 0x74b1d000 	C:\Windows\syswow64\SETUPAPI.dll
+0x763a0000 - 0x763c7000 	C:\Windows\syswow64\CFGMGR32.dll
+0x75dd0000 - 0x75de2000 	C:\Windows\syswow64\DEVOBJ.dll
+0x712c0000 - 0x713b5000 	C:\Windows\system32\PROPSYS.dll
+0x661c0000 - 0x663dd000 	C:\PROGRA~2\MICROS~1\Office12\GR469A~1.DLL
+0x68ef0000 - 0x68fe1000 	C:\PROGRA~2\MICROS~1\Office12\GrooveUtil.DLL
+0x76040000 - 0x7615b000 	C:\Windows\syswow64\WININET.dll
+0x75f00000 - 0x75f03000 	C:\Windows\syswow64\Normaliz.dll
+0x76410000 - 0x765c8000 	C:\Windows\syswow64\iertutil.dll
+0x76610000 - 0x76721000 	C:\Windows\syswow64\urlmon.dll
+0x75cb0000 - 0x75dcd000 	C:\Windows\syswow64\CRYPT32.dll
+0x75c10000 - 0x75c1c000 	C:\Windows\syswow64\MSASN1.dll
+0x68ff0000 - 0x68ff7000 	C:\PROGRA~2\MICROS~1\Office12\GrooveNew.DLL
+0x6d000000 - 0x6d01b000 	C:\Windows\WinSxS\x86_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_d1c738ec43578ea1\ATL80.DLL
+0x72bd0000 - 0x72be6000 	C:\Windows\system32\CRYPTSP.dll
+0x72b10000 - 0x72b4b000 	C:\Windows\system32\rsaenh.dll
+0x71250000 - 0x712c0000 	C:\Windows\system32\ntshrui.dll
+0x717e0000 - 0x717f9000 	C:\Windows\system32\srvcli.dll
+0x71240000 - 0x7124b000 	C:\Windows\system32\cscapi.dll
+0x71230000 - 0x7123a000 	C:\Windows\system32\slc.dll
+0x72bc0000 - 0x72bce000 	C:\Windows\system32\RpcRtRemote.dll
+0x087f0000 - 0x08808000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nssdbm3.dll
+0x08820000 - 0x08861000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\freebl3.dll
+0x08880000 - 0x088d1000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nssckbi.dll
+0x6d3f0000 - 0x6d3f6000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\jawt.dll
+0x731e0000 - 0x731f0000 	C:\Windows\system32\NLAapi.dll
+0x731d0000 - 0x731e0000 	C:\Windows\system32\napinsp.dll
+0x73120000 - 0x73132000 	C:\Windows\system32\pnrpnsp.dll
+0x73100000 - 0x7310d000 	C:\Windows\system32\wshbth.dll
+0x72fc0000 - 0x73004000 	C:\Windows\system32\DNSAPI.dll
+0x73110000 - 0x73118000 	C:\Windows\System32\winrnr.dll
+0x716a0000 - 0x716a6000 	C:\Windows\system32\rasadhlp.dll
+0x72340000 - 0x72378000 	C:\Windows\System32\fwpuclnt.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 
+java_command: webfeaturingaco.WebFeaturingACO
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Java\jdk1.6.0_04\bin;C:\Program Files (x86)\Common Files\Adobe\AGL;
+USERNAME=JINOS
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 7 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 3075288k(1660696k free), swap 4194303k(4194303k free)
+
+vm_info: Java HotSpot(TM) Client VM (10.0-b19) for windows-x86 JRE (1.6.0_04-b12), built on Dec 14 2007 00:51:20 by "java_re" with MS VC++ 7.1
+
+time: Sun Feb 26 23:16:55 2012
+elapsed time: 20 seconds
+

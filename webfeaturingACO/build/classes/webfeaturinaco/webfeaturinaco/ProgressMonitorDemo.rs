@@ -1,0 +1,8 @@
+webfeaturinaco.webfeaturinaco.SwingWorker$ThreadVar
+webfeaturinaco.webfeaturinaco.ProgressMonitorDemo
+webfeaturinaco.webfeaturinaco.LongTask
+webfeaturinaco.webfeaturinaco.SwingWorker$1
+webfeaturinaco.webfeaturinaco.LongTask$1
+webfeaturinaco.webfeaturinaco.SwingWorker$2
+webfeaturinaco.webfeaturinaco.SwingWorker
+webfeaturinaco.webfeaturinaco.LongTask$ActualTask

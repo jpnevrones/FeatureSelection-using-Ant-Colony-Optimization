@@ -1,0 +1,246 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x07fb32d7, pid=2580, tid=4140
+#
+# Java VM: Java HotSpot(TM) Client VM (10.0-b19 mixed mode, sharing windows-x86)
+# Problematic frame:
+# C  0x07fb32d7
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x04cea400):  JavaThread "XpcMessageLoop" daemon [_thread_in_native, id=4140, stack(0x055d0000,0x05620000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x07fb32d7
+
+Registers:
+EAX=0x76c10000, EBX=0x04e5e160, ECX=0x76ed0810, EDX=0x00000000
+ESP=0x0561ef9c, EBP=0x0561efb8, ESI=0x04cea4f4, EDI=0x04cea400
+EIP=0x07fb32d7, EFLAGS=0x00010246
+
+Top of Stack: (sp=0x0561ef9c)
+0x0561ef9c:   04cea400 284ddd88 284ddd88 04cea4f4
+0x0561efac:   0561efcc 04e5e162 00000000 0561eff4
+0x0561efbc:   02489c91 01cea4f4 0561effc 0561f004
+0x0561efcc:   2d05e620 04cea400 0561efd4 00000000
+0x0561efdc:   0561f004 284ded58 00000000 284ddd88
+0x0561efec:   00000000 0561f004 0561f028 02482d93
+0x0561effc:   284de3c0 02488099 243478c0 0561f008
+0x0561f00c:   284dd474 0561f040 284ded58 00000000 
+
+Instructions: (pc=0x07fb32d7)
+0x07fb32c7:   
+[error occurred during error reporting (printing registers, top of stack, instructions near pc), id 0xc0000005]
+
+Stack: [0x055d0000,0x05620000],  sp=0x0561ef9c,  free space=315k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x07fb32d7
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+J  com.jniwrapper.Callback.enterPoint(JI)J
+v  ~BufferBlob::StubRoutines (1)
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+J  com.jniwrapper.Callback.enterPoint(JI)J
+v  ~BufferBlob::StubRoutines (1)
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::Interpreter
+v  ~BufferBlob::StubRoutines (1)
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x04cd6c00 JavaThread "Thread-1" daemon [_thread_in_native, id=4496, stack(0x08790000,0x087e0000)]
+  0x04a2c800 JavaThread "com.jniwrapper.NativeResourceCollector" daemon [_thread_blocked, id=4172, stack(0x08010000,0x08060000)]
+=>0x04cea400 JavaThread "XpcMessageLoop" daemon [_thread_in_native, id=4140, stack(0x055d0000,0x05620000)]
+  0x04d37000 JavaThread "TimerQueue" daemon [_thread_blocked, id=4116, stack(0x05dd0000,0x05e20000)]
+  0x001c7800 JavaThread "DestroyJavaVM" [_thread_blocked, id=3560, stack(0x00430000,0x00480000)]
+  0x04a2e400 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=4108, stack(0x05380000,0x053d0000)]
+  0x04a2e000 JavaThread "AWT-Windows" daemon [_thread_in_native, id=4104, stack(0x052f0000,0x05340000)]
+  0x04a2d800 JavaThread "AWT-Shutdown" [_thread_blocked, id=4100, stack(0x05260000,0x052b0000)]
+  0x04a2d400 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=3124, stack(0x051d0000,0x05220000)]
+  0x0240bc00 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=3620, stack(0x048a0000,0x048f0000)]
+  0x023ff000 JavaThread "CompilerThread0" daemon [_thread_blocked, id=1372, stack(0x04810000,0x04860000)]
+  0x023fe800 JavaThread "Attach Listener" daemon [_thread_blocked, id=2644, stack(0x04780000,0x047d0000)]
+  0x023f5c00 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=2252, stack(0x046f0000,0x04740000)]
+  0x023b3400 JavaThread "Finalizer" daemon [_thread_blocked, id=1576, stack(0x04660000,0x046b0000)]
+  0x023b2400 JavaThread "Reference Handler" daemon [_thread_blocked, id=2220, stack(0x045d0000,0x04620000)]
+
+Other Threads:
+  0x023b1000 VMThread [stack: 0x04540000,0x04590000] [id=3640]
+  0x02415400 WatcherThread [stack: 0x04930000,0x04980000] [id=3652]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 845K [0x24280000, 0x24380000, 0x24760000)
+  eden space 896K,  89% used [0x24280000, 0x243494a8, 0x24360000)
+  from space 64K,  63% used [0x24370000, 0x2437a350, 0x24380000)
+  to   space 64K,   0% used [0x24360000, 0x24360000, 0x24370000)
+ tenured generation   total 11844K, used 7457K [0x24760000, 0x252f1000, 0x28280000)
+   the space 11844K,  62% used [0x24760000, 0x24ea8780, 0x24ea8800, 0x252f1000)
+ compacting perm gen  total 12288K, used 7025K [0x28280000, 0x28e80000, 0x2c280000)
+   the space 12288K,  57% used [0x28280000, 0x2895c4d8, 0x2895c600, 0x28e80000)
+    ro space 8192K,  66% used [0x2c280000, 0x2c7d0c80, 0x2c7d0e00, 0x2ca80000)
+    rw space 12288K,  52% used [0x2ca80000, 0x2d0d03d0, 0x2d0d0400, 0x2d680000)
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	C:\Program Files (x86)\Java\jdk1.6.0_04\bin\java.exe
+0x77880000 - 0x77a00000 	C:\Windows\SysWOW64\ntdll.dll
+0x76130000 - 0x76240000 	C:\Windows\syswow64\kernel32.dll
+0x76e90000 - 0x76ed6000 	C:\Windows\syswow64\KERNELBASE.dll
+0x76b70000 - 0x76c10000 	C:\Windows\syswow64\ADVAPI32.dll
+0x76930000 - 0x769dc000 	C:\Windows\syswow64\msvcrt.dll
+0x76760000 - 0x76779000 	C:\Windows\SysWOW64\sechost.dll
+0x762e0000 - 0x763d0000 	C:\Windows\syswow64\RPCRT4.dll
+0x74f60000 - 0x74fc0000 	C:\Windows\syswow64\SspiCli.dll
+0x74f50000 - 0x74f5c000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\msvcr71.dll
+0x6d870000 - 0x6dac0000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\client\jvm.dll
+0x76c10000 - 0x76d10000 	C:\Windows\syswow64\USER32.dll
+0x75160000 - 0x751f0000 	C:\Windows\syswow64\GDI32.dll
+0x766c0000 - 0x766ca000 	C:\Windows\syswow64\LPK.dll
+0x76240000 - 0x762dd000 	C:\Windows\syswow64\USP10.dll
+0x73230000 - 0x73262000 	C:\Windows\system32\WINMM.dll
+0x76f60000 - 0x76fc0000 	C:\Windows\system32\IMM32.DLL
+0x765f0000 - 0x766bc000 	C:\Windows\syswow64\MSCTF.dll
+0x73a10000 - 0x73a5c000 	C:\Windows\system32\apphelp.dll
+0x6d320000 - 0x6d328000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\hpi.dll
+0x76ee0000 - 0x76ee5000 	C:\Windows\syswow64\PSAPI.DLL
+0x6d820000 - 0x6d82c000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\verify.dll
+0x6d3c0000 - 0x6d3df000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\java.dll
+0x6d860000 - 0x6d86f000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\zip.dll
+0x6d0b0000 - 0x6d1de000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\awt.dll
+0x735d0000 - 0x73621000 	C:\Windows\system32\WINSPOOL.DRV
+0x76d10000 - 0x76e6c000 	C:\Windows\syswow64\ole32.dll
+0x732e0000 - 0x73360000 	C:\Windows\system32\uxtheme.dll
+0x73360000 - 0x73368000 	c:\PROGRA~2\mcafee\SITEAD~1\saHook.dll
+0x75f80000 - 0x7600f000 	C:\Windows\syswow64\OLEAUT32.dll
+0x73030000 - 0x73043000 	C:\Windows\system32\dwmapi.dll
+0x751f0000 - 0x75e3a000 	C:\Windows\syswow64\shell32.dll
+0x76590000 - 0x765e7000 	C:\Windows\syswow64\SHLWAPI.dll
+0x6d2c0000 - 0x6d313000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\fontmanager.dll
+0x6d620000 - 0x6d633000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\net.dll
+0x769e0000 - 0x76a15000 	C:\Windows\syswow64\WS2_32.dll
+0x75f40000 - 0x75f46000 	C:\Windows\syswow64\NSI.dll
+0x73840000 - 0x7387c000 	C:\Windows\system32\mswsock.dll
+0x741c0000 - 0x741c6000 	C:\Windows\System32\wship6.dll
+0x6d640000 - 0x6d649000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\nio.dll
+0x768a0000 - 0x76923000 	C:\Windows\syswow64\CLBCatQ.DLL
+0x10000000 - 0x10008000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\javaxpcomglue.dll
+0x72a30000 - 0x72acb000 	C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc\MSVCR80.dll
+0x05630000 - 0x05659000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nspr4.dll
+0x6f290000 - 0x6f297000 	C:\Windows\system32\WSOCK32.dll
+0x05670000 - 0x05677000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\plc4.dll
+0x05690000 - 0x05697000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\plds4.dll
+0x056d0000 - 0x05743000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\sqlite3.dll
+0x05750000 - 0x05764000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nssutil3.dll
+0x05780000 - 0x057a6000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\softokn3.dll
+0x05e20000 - 0x05ebb000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nss3.dll
+0x057d0000 - 0x057f0000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\ssl3.dll
+0x05800000 - 0x05818000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\smime3.dll
+0x06df0000 - 0x06ec2000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\js3250.dll
+0x06ed0000 - 0x078b1000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\xul.dll
+0x73b20000 - 0x73b29000 	C:\Windows\system32\VERSION.dll
+0x75e90000 - 0x75f0b000 	C:\Windows\syswow64\COMDLG32.dll
+0x74d10000 - 0x74d94000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af\COMCTL32.dll
+0x74780000 - 0x74785000 	C:\Windows\system32\MSIMG32.dll
+0x73080000 - 0x73107000 	C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc\MSVCP80.dll
+0x05ec0000 - 0x05ec7000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\xpcom.dll
+0x73170000 - 0x73175000 	C:\Windows\System32\wshtcpip.dll
+0x72e60000 - 0x72e7c000 	C:\Windows\system32\iphlpapi.dll
+0x72e30000 - 0x72e37000 	C:\Windows\system32\WINNSI.DLL
+0x73c60000 - 0x73c6d000 	C:\Windows\system32\dhcpcsvc6.DLL
+0x73c40000 - 0x73c52000 	C:\Windows\system32\dhcpcsvc.DLL
+0x73140000 - 0x73161000 	C:\Windows\system32\ntmarta.dll
+0x75e40000 - 0x75e85000 	C:\Windows\syswow64\WLDAP32.dll
+0x73e20000 - 0x73e3e000 	C:\Windows\system32\t2embed.dll
+0x73370000 - 0x7350e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll
+0x70e80000 - 0x70f7b000 	C:\Windows\system32\WindowsCodecs.dll
+0x73de0000 - 0x73e11000 	C:\Windows\system32\EhStorShell.dll
+0x74fc0000 - 0x7515d000 	C:\Windows\syswow64\SETUPAPI.dll
+0x76a20000 - 0x76a47000 	C:\Windows\syswow64\CFGMGR32.dll
+0x76e70000 - 0x76e82000 	C:\Windows\syswow64\DEVOBJ.dll
+0x73ce0000 - 0x73dd5000 	C:\Windows\system32\PROPSYS.dll
+0x661c0000 - 0x663dd000 	C:\PROGRA~2\MICROS~1\Office12\GR469A~1.DLL
+0x68ef0000 - 0x68fe1000 	C:\PROGRA~2\MICROS~1\Office12\GrooveUtil.DLL
+0x76a50000 - 0x76b6b000 	C:\Windows\syswow64\WININET.dll
+0x77850000 - 0x77853000 	C:\Windows\syswow64\Normaliz.dll
+0x763d0000 - 0x76588000 	C:\Windows\syswow64\iertutil.dll
+0x76010000 - 0x76121000 	C:\Windows\syswow64\urlmon.dll
+0x76780000 - 0x7689d000 	C:\Windows\syswow64\CRYPT32.dll
+0x76f50000 - 0x76f5c000 	C:\Windows\syswow64\MSASN1.dll
+0x68ff0000 - 0x68ff7000 	C:\PROGRA~2\MICROS~1\Office12\GrooveNew.DLL
+0x73e40000 - 0x73e5b000 	C:\Windows\WinSxS\x86_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_d1c738ec43578ea1\ATL80.DLL
+0x73010000 - 0x73026000 	C:\Windows\system32\CRYPTSP.dll
+0x72f90000 - 0x72fcb000 	C:\Windows\system32\rsaenh.dll
+0x6f360000 - 0x6f3d0000 	C:\Windows\system32\ntshrui.dll
+0x728b0000 - 0x728c9000 	C:\Windows\system32\srvcli.dll
+0x73b10000 - 0x73b1b000 	C:\Windows\system32\cscapi.dll
+0x6fe00000 - 0x6fe0a000 	C:\Windows\system32\slc.dll
+0x73550000 - 0x7355e000 	C:\Windows\system32\RpcRtRemote.dll
+0x08d80000 - 0x08d98000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nssdbm3.dll
+0x09200000 - 0x09241000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\freebl3.dll
+0x09250000 - 0x092a1000 	C:\Users\JINOS\.JxBrowser\xulrunner-windows-version-1.9.2.1\xulrunner-windows\nssckbi.dll
+0x6d3f0000 - 0x6d3f6000 	C:\Program Files (x86)\Java\jdk1.6.0_04\jre\bin\jawt.dll
+0x73a00000 - 0x73a10000 	C:\Windows\system32\NLAapi.dll
+0x739f0000 - 0x73a00000 	C:\Windows\system32\napinsp.dll
+0x73940000 - 0x73952000 	C:\Windows\system32\pnrpnsp.dll
+0x73930000 - 0x7393d000 	C:\Windows\system32\wshbth.dll
+0x737f0000 - 0x73834000 	C:\Windows\system32\DNSAPI.dll
+0x737e0000 - 0x737e8000 	C:\Windows\System32\winrnr.dll
+0x74290000 - 0x74296000 	C:\Windows\system32\rasadhlp.dll
+0x725e0000 - 0x72618000 	C:\Windows\System32\fwpuclnt.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 
+java_command: webfeaturinaco.WebFeaturinACOApp
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Java\jdk1.6.0_04\bin;C:\Program Files (x86)\Common Files\Adobe\AGL;
+USERNAME=JINOS
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 7 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 3075288k(1625560k free), swap 4194303k(4194303k free)
+
+vm_info: Java HotSpot(TM) Client VM (10.0-b19) for windows-x86 JRE (1.6.0_04-b12), built on Dec 14 2007 00:51:20 by "java_re" with MS VC++ 7.1
+
+time: Thu Feb 23 21:55:10 2012
+elapsed time: 104 seconds
+

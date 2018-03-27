@@ -1,0 +1,353 @@
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Abortion Clinic  Abortion Clinics OnLine list of reputable abortion clinics and abortion clinic doctors. Where to get an abortion .htm
+-------------------------------------------------------------------------------------------------------------------------
+		doctor(5,2)
+		pregnanc(4,2)
+		price(4,2)
+		directori(5,2)
+		intern(4,2)
+		websit(4,1)
+		categori(4,1)
+		right(4,1)
+		choic(6,1)
+		link(4,1)
+		onlin(12,4)
+		abort(164,97)
+		clinic(37,20)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Abortion Clinic Delhi India Abortion Centre MTP Infertility Safe Abortion New Delhi India Abortion Center.htm
+-------------------------------------------------------------------------------------------------------------------------
+		abort(20,71)
+		delhi(9,30)
+		india(8,29)
+		Ã‚(16,26)
+		clinic(7,19)
+		centr(4,14)
+		safe(5,16)
+		hospit(5,8)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Acupuncture Today is a leading provider of acupuncture news, info and research information in the world.htm
+-------------------------------------------------------------------------------------------------------------------------
+		acupunctur(20,55)
+		new(11,29)
+		research(5,20)
+		provid(4,20)
+		todai(5,17)
+		massag(15,18)
+		care(10,15)
+		mail(5,9)
+		read(6,12)
+		health(8,12)
+		link(5,10)
+		updat(6,10)
+		educ(7,9)
+		profess(5,10)
+		board(7,9)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Acupuncture.Com - Home of Traditional Chinese Medicine.htm
+-------------------------------------------------------------------------------------------------------------------------
+		chines(5,28)
+		acupunctur(5,24)
+		summer(5,20)
+		tcm(4,20)
+		pain(5,14)
+		health(4,16)
+		msm(5,10)
+		herb(5,22)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Advanced Allergy and Asthma Care - Pinellas Park - Palm Harbor - New Port Richey.htm
+-------------------------------------------------------------------------------------------------------------------------
+		allergi(8,29)
+		care(8,24)
+		richei(7,21)
+		pinella(7,21)
+		port(7,21)
+		park(6,19)
+		palm(6,19)
+		harbor(6,19)
+		advanc(5,16)
+		south(5,12)
+		health(4,13)
+		tampa(5,12)
+		asthma(12,43)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Allergy and Asthma Care of Brooklyn - Dr. Cascya Charlot, Brooklyn, NY Allergy Doctor.htm
+-------------------------------------------------------------------------------------------------------------------------
+		allergi(22,63)
+		asthma(13,34)
+		brooklyn(11,33)
+		care(9,22)
+		manag(6,19)
+		dr(4,14)
+		hai(4,13)
+		hive(4,13)
+		fever(4,13)
+		allerg(5,14)
+		diseas(5,14)
+		eczema(4,13)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Allergy Associates of New London PC George A. Sprecace, M.D., J.D..htm
+-------------------------------------------------------------------------------------------------------------------------
+		sprecac(5,18)
+		mast(4,18)
+		care(4,14)
+		health(4,14)
+		site(4,14)
+		allergi(6,21)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from American Academy of Urgent Care Medicine (AAUCM).htm
+-------------------------------------------------------------------------------------------------------------------------
+		urgent(38,55)
+		medicin(16,25)
+		aaucm(20,29)
+		american(11,15)
+		academi(8,12)
+		physician(4,7)
+		care(43,62)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from AMMD  Medical - Legal Review, Malpractice Screening.htm
+-------------------------------------------------------------------------------------------------------------------------
+		medic(28,59)
+		review(21,47)
+		case(14,29)
+		malpractic(9,19)
+		qualiti(7,15)
+		screen(7,13)
+		denver(5,12)
+		care(4,11)
+		colorado(4,11)
+		expert(6,11)
+		legal(13,29)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Anal Sex.htm
+-------------------------------------------------------------------------------------------------------------------------
+		sex(12,31)
+		partner(13,29)
+		anal(7,20)
+		love(9,20)
+		feel(9,20)
+		giver(7,18)
+		anu(8,18)
+		happen(6,18)
+		time(8,18)
+		don(8,18)
+		read(7,15)
+		good(7,15)
+		lube(7,15)
+		peni(6,13)
+		dildo(6,13)
+		give(6,13)
+		import(4,9)
+		ll(4,9)
+		hurt(4,9)
+		readi(5,11)
+		aren(4,9)
+		larg(4,9)
+		clean(4,9)
+		stuff(4,9)
+		ve(4,9)
+		receiv(4,9)
+		part(4,9)
+		health(4,9)
+		care(4,9)
+		explor(4,9)
+		prepar(4,9)
+		pain(5,11)
+		iomfat(4,8)
+		pleasur(4,9)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Animal Science Database.htm
+-------------------------------------------------------------------------------------------------------------------------
+		Ã‚(16,33)
+		scienc(7,27)
+		databas(9,25)
+		login(12,24)
+		view(10,21)
+		review(6,17)
+		research(4,13)
+		new(4,13)
+		event(4,13)
+		diseas(8,17)
+		rabi(7,15)
+		inform(4,10)
+		abstract(5,9)
+		search(5,8)
+		full(4,7)
+		text(4,7)
+		site(4,8)
+		influenza(4,8)
+		anim(16,50)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Ask Dr. Z - Holistic on-line alternative holistic health help!.htm
+-------------------------------------------------------------------------------------------------------------------------
+		dr(28,26)
+		health(16,24)
+		holist(9,23)
+		altern(7,20)
+		chronic(8,21)
+		allergi(6,18)
+		person(5,12)
+		portabl(5,12)
+		chiropract(4,10)
+		problem(6,15)
+		line(6,10)
+		medicin(5,15)
+		bar(5,12)
+		supplement(4,11)
+		oxygen(19,45)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from ASLMS - American Society for Laser Medicine and Surgery.htm
+-------------------------------------------------------------------------------------------------------------------------
+		laser(13,64)
+		medicin(9,37)
+		aslm(7,20)
+		american(4,19)
+		societi(4,19)
+		onlin(5,10)
+		applic(4,9)
+		surgeri(12,51)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Australian Acupuncture.com An overview of Acupunture from an Australian Perspective.htm
+-------------------------------------------------------------------------------------------------------------------------
+		chines(25,32)
+		qi(18,24)
+		australian(16,24)
+		medicin(21,23)
+		needl(12,16)
+		psycholog(12,16)
+		australia(7,12)
+		therapi(10,11)
+		relationship(10,11)
+		stress(12,16)
+		mind(10,11)
+		prana(6,8)
+		quantum(6,8)
+		energi(6,8)
+		attent(10,11)
+		breath(10,11)
+		substrat(6,8)
+		conscious(10,11)
+		diseas(6,8)
+		treatment(6,8)
+		exercis(6,8)
+		relax(6,8)
+		herb(6,8)
+		herbalist(6,8)
+		japanes(6,8)
+		massag(6,8)
+		point(6,8)
+		channel(6,8)
+		metaphys(6,8)
+		memori(6,8)
+		spirit(6,8)
+		process(6,8)
+		orient(6,8)
+		signal(6,8)
+		physic(6,8)
+		emot(6,8)
+		anger(6,8)
+		suppress(6,8)
+		jung(6,8)
+		jing(6,8)
+		shen(6,8)
+		ching(6,8)
+		feng(6,8)
+		shui(6,8)
+		connected(6,8)
+		state(6,8)
+		void(6,8)
+		buddhism(6,8)
+		taoism(6,8)
+		tao(6,8)
+		balanc(6,8)
+		whisper(6,8)
+		tai(6,8)
+		gong(6,8)
+		paradigm(6,8)
+		zodiac(6,8)
+		express(6,8)
+		reflect(6,8)
+		synchron(6,8)
+		health(6,8)
+		shiatsu(6,8)
+		calligraphi(6,8)
+		practition(6,8)
+		drug(6,8)
+		doctor(6,8)
+		addict(6,8)
+		depress(6,8)
+		acupunctur(25,36)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from ayurveda medicine ayurveda treatment ayurveda herbs ayurveda diet.htm
+-------------------------------------------------------------------------------------------------------------------------
+		ayurved(33,53)
+		herb(10,19)
+		treatment(9,18)
+		diet(8,14)
+		medicin(4,9)
+		ayurveda(44,73)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Ayurvedic Foundations Web Site.htm
+-------------------------------------------------------------------------------------------------------------------------
+		foundat(5,33)
+		site(5,33)
+		ayurveda(6,33)
+		ayurved(10,61)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Botanical.com - Herbal Information, Gardening and Hydroponic Supplies.htm
+-------------------------------------------------------------------------------------------------------------------------
+		modern(11,33)
+		botan(8,24)
+		new(7,25)
+		suppli(6,21)
+		inform(4,16)
+		garden(5,16)
+		hydropon(4,14)
+		health(5,16)
+		light(4,9)
+		herbal(22,66)
+                                                                         
+                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+		Optimal feature set extracted from Breast lump removal  MedlinePlus Medical Encyclopedia.htm
+-------------------------------------------------------------------------------------------------------------------------
+		breast(54,71)
+		cancer(24,35)
+		surgeri(16,23)
+		lump(11,19)
+		remov(6,12)
+		medlineplu(4,7)
